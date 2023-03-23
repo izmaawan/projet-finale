@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="R]CkjcNMxgRl#ex_0U0)" x="-507" y="-226"><statement name="HANDLER"><block type="device_print_message" id="bK`j6}ZXrVZ$*fe]Ks=1"><value name="text"><shadow type="text" id="n=RMq9a3avPZz~C-%r*W"><field name="TEXT">Contrôlez le débit du fluide !</field></shadow></value><next><block type="device_pause" id="}7M#A{.J,?7p?X:Nhob("><value name="pause"><shadow type="timePicker" id="$^m(gG!1Q2iI0jgZ0ds;"><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="#)^2bW_,#zzQ|cMtr!MP"><value name="text"><shadow type="text" id="YBGmkD2(jD`s@I%441.x"><field name="TEXT">Appuyez sur A pour rendre le fluide visqueux et sur B pour le rendre plus fluide visqueux.</field></shadow></value><next><block type="device_clear_display" id="w=L$l=5KR~(6hi{k:L0l"></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="RYi,{agi4o}f2/c=j~W[" x="-507" y="67"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="od[ZcKe$M42)LJ?87^Z~"><value name="melody"><shadow type="melody_editor" id="?`/RvwFmTDrUb8mU+v}`"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="BqOMjTS`6)I|jVk[rN*("><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">40</field></shadow></value><next><block type="device_show_leds" id="eT=mW|`kmix8?Qk0V$%U"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # . . . 
+        # # # . .
+        `</field><next><block type="device_pause" id="5SWVq0+f:f*t3x8LP@`t"><value name="pause"><shadow type="timePicker" id="D0^4!`U2U.,(rr7=H^!C"><field name="ms">5000</field></shadow></value><next><block type="device_show_leds" id="a~iCLA{g.{Y8A^:O`g(a"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_pause" id="XP+uavJ@{$/,wK}l(1dN"><value name="pause"><shadow type="timePicker" id="`J*-5RSa(WIlf=m+vJ8;"><field name="ms">100</field></shadow></value><next><block type="device_clear_display" id="9`)MEzNK?lyST-%7U*L="></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="a;6y0787yJv#izYH0Lpw" x="-501" y="849"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_stop_melody" id="M(Ri+]mLp~HSbEeb=HJs"><field name="options">MelodyStopOptions.All</field><next><block type="playMelody" id="dr?I1j=~]6pP3:y(r/Kn"><value name="melody"><shadow type="melody_editor"><field name="melody">"C5 B A G F E D C "</field></shadow><block type="melody_editor" id="h$KuA.Ls5*7`*aK-$/HW"><field name="melody">"C5 B A G F E D C "</field></block></value><value name="tempo"><shadow type="math_number_minmax" id="*TAf.fj$s-~K1d^1aQ,W"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">155</field></shadow></value><next><block type="device_show_leds" id="/3qR`AC,X}M[S-=5O6BV"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # . . . 
+        # # # . .
+        `</field><next><block type="device_pause" id="_}OZxG=/%dtf;=|^0**)"><value name="pause"><shadow type="timePicker" id="^Gpq),-,EvD;(?zMgJ:="><field name="ms">100</field></shadow></value><next><block type="device_show_leds" id="QU[$x`|1ApO^:CR_b@IU"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="device_clear_display" id="c@Vq=*X3}}QH{-*u.fso"></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="input_logo_event" id="2dc;gj;zzl.6w.(`md:X" x="-494" y="1612"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="device_print_message" id="wQLW]^w4PD;8`.@8]w}x"><value name="text"><shadow type="text" id="ITL1k7ail~pt^uAS{!91"><field name="TEXT">Bon travail !</field></shadow></value><next><block type="device_print_message" id="?4-jD;nL_=0n=cW:.CUB"><value name="text"><shadow type="text" id="W#kVhweB,L}9AS*L]q/+"><field name="TEXT">La musique symbolise la vitesse à laquelle le fluide s'écoule</field></shadow></value><next><block type="device_clear_display" id="g|g[2;8]H?RsZtgK?ukR"></block></next></block></next></block></statement></block></xml>
